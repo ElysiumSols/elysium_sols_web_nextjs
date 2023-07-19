@@ -1,0 +1,12 @@
+.canvasStyle canvas {
+  background-color: #222;
+  position: absolute !important;
+  z-index: -2 !important;
+}
+#tsparticles {
+  position: absolute;
+  z-index: -10;
+}
+/* canvas{
+  position: absolute !important;
+} */

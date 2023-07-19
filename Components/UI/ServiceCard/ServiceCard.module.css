@@ -1,0 +1,47 @@
+.serviceCard {
+  grid-area: 1 / 1;
+  width: 299px;
+  height: 193px;
+  border-radius: 2px;
+  background-color: #353535;
+  transform: translateX(10px) rotateY(25deg) rotateX(10deg);
+  backface-visibility: hidden;
+  box-shadow: 0 10px 30px -3px rgba(0, 0, 0, 0.88);
+}
+
+.serviceWrapper {
+  position: relative;
+  perspective: 40em;
+  display: grid;
+  transform-style: preserve-3d;
+}
+
+.serviceWrapper:before {
+  --bw: 2px;
+  grid-area: 1 / 1;
+  content: "";
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  margin-top: calc(-1 * var(--bw));
+  margin-left: calc(-1 * var(--bw));
+  background: transparent;
+  transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+  pointer-events: none;
+  box-sizing: content-box;
+}
+
+.serviceWrapper:hover > .serviceCard,
+.serviceWrapper:hover:before {
+  transform: none;
+}
+
+.serviceWrapper > .serviceCard,
+.serviceWrapper:before {
+  will-change: transform;
+  transition: 0.3s transform cubic-bezier(0.25, 0.46, 0.45, 1);
+}
+
+.spacer {
+  margin: 1.5em auto;
+}

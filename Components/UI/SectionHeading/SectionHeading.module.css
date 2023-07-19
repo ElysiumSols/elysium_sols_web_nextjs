@@ -1,0 +1,14 @@
+.lft {
+  /* left: 73px !important; */
+  margin-left: -80px;
+}
+
+.tp {
+  margin-top: 0.3em !important;
+}
+
+@media screen and (max-width: 768px) {
+  .lft {
+    margin-left: -10px;
+  }
+}

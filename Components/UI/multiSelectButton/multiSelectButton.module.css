@@ -1,0 +1,26 @@
+@import url("../../../theme.css");
+
+.btn {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: var(--black);
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 0.1px rgba(0, 0, 0, 0.02), 0px 0px 0.3px rgba(0, 0, 0, 0.028), 0px 0px 2.5px rgba(0, 0, 0, 0.035),
+    0px 0px 4.6px rgba(0, 0, 0, 0.042), 0px 0px 4.9px rgba(0, 0, 0, 0.05), 0px 0px 5px rgba(0, 0, 0, 0.07);
+
+  -webkit-transition: all 350ms ease-in-out;
+  -ms-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  -o-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.btnActive {
+  background-color: var(--black) !important;
+  color: var(--white) !important;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-color: var(--black);
+}

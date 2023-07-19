@@ -1,0 +1,7 @@
+.backDrop {
+  position: fixed;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100vw;
+  height: 100vh;
+}

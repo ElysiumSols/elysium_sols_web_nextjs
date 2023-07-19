@@ -1,0 +1,67 @@
+.onTop {
+  z-index: 1000;
+}
+
+.backGroundColordim {
+  background-color: #59595970;
+}
+
+.backGroundColor {
+  background-color: #292929;
+}
+
+.btBorder2px {
+  border-bottom: 2px solid transparent;
+}
+
+.pdT2px {
+  padding-top: 2px;
+}
+
+.nonClickable {
+  pointer-events: none !important;
+}
+
+.opactiy70 {
+  opacity: 0.7;
+}
+
+.opactiy70:hover {
+  opacity: 1;
+}
+
+.active,
+.active:hover {
+  opacity: 1;
+}
+
+.active div,
+.active div:hover {
+  border-bottom-color: #fefefe;
+}
+
+.hoverLink:hover div {
+  opacity: 1;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .active,
+  .active:hover {
+    width: 100%;
+  }
+
+  .active div,
+  .active div:hover {
+    width: 100% !important;
+    background-color: var(--white) !important;
+    border-bottom-color: none !important;
+    color: var(--black) !important;
+    border-radius: 5px !important;
+  }
+
+  .hoverLink:hover div {
+    background-color: var(--gray);
+    border-radius: 5px;
+  }
+}

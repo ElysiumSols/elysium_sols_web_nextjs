@@ -1,0 +1,61 @@
+/* :root {
+  --black: #222222;
+  --black_70: rgba(34, 34, 34, 0.7);
+  --blackReduced: #dcdcdc;
+  --gray: #777777;
+  --white: #fefefe;
+  --whiteReduced: #7e7d7d;
+  --offWhite: #fcfcfc;
+  --linearLight: #292929;
+  --linearDark: #161616;
+  --linerGradient: linear-gradient(108.46deg, var(--linearLight) 0%, var(--linearDark) 100%);
+  --linerGradientInverse: linear-gradient(108.46deg, var(--linearDark) 0%, var(--linearLight) 100%);
+} */
+
+.bg-primary-color {
+  background-color: var(--offWhite);
+}
+
+.bg-secondary-color {
+  background: var(--linerGradient);
+}
+
+.text-color-black {
+  color: var(--black);
+}
+
+.text-color-black-reduce {
+  color: var(--blackReduced);
+}
+
+.text-color-white {
+  color: var(--white);
+}
+
+.text-color-white-reduce {
+  color: var(--whiteReduced);
+}
+
+.activeButtonColor {
+  color: var(--black);
+}
+
+.inactiveButtonColor {
+  color: var(--gray);
+}
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.homepageDivider {
+  width: 70vw;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  opacity: 0.2;
+}

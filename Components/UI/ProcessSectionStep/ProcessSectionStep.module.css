@@ -1,0 +1,33 @@
+@import "../../../theme.css";
+
+.custom-wh {
+  width: 40px;
+  height: 36px;
+}
+
+.z-m1 {
+  z-index: -1;
+}
+
+.activeStepColor {
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.activeStep {
+  background-image: var(--linerGradient) !important;
+  animation: showAnimation 0.55s ease-in-out;
+}
+
+@keyframes showAnimation {
+  from {
+    height: 0rem;
+    width: 0rem;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 40px;
+    height: 36px;
+    transform: rotate(360deg);
+  }
+}

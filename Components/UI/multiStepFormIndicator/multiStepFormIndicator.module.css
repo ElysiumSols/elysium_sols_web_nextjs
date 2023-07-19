@@ -1,0 +1,65 @@
+@import url("../../../theme.css");
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.seprator {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 6px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: var(--blackReduced);
+  border: 1px solid var(--gray);
+  overflow: hidden;
+}
+
+.seprator > div {
+  height: 6px;
+  background-color: var(--black);
+
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.stepComplete {
+  color: #1a742f;
+  background-color: #96fcae;
+  border: 1px solid #1a742f !important;
+}
+
+.stepText {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.stepTexthalfVisibility {
+  opacity: 0.6;
+}
+
+.stepTextFullVisibility {
+  opacity: 1;
+}

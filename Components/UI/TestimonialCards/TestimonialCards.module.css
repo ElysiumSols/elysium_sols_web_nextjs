@@ -1,0 +1,9 @@
+@import url("../../../theme.css");
+
+.darkColor{
+    color: var(--black);
+}
+
+.semiDarkColor{
+    color: var(--gray);
+}

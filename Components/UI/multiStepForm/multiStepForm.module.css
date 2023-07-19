@@ -1,0 +1,143 @@
+@import url("../../../theme.css");
+
+.scrollY {
+  overflow-y: auto;
+}
+
+.title {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.title > span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.finalTitle {
+  font-size: 3em;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.subTitle {
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: var(--black);
+}
+
+.input {
+  border: 1px solid var(--black_70);
+  border-radius: 3px;
+  width: 95%;
+  padding: 5px;
+  font-size: 0.8em;
+  height: 40px;
+}
+
+.twoInputSize {
+  height: 104px;
+  resize: none;
+}
+
+.maxSizeAllPages {
+  height: 200px;
+}
+
+.actionBTNRight,
+.actionBTNLeft {
+  position: relative;
+  color: var(--white);
+  height: 50px;
+  width: 120px;
+  z-index: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.errorBorderColor {
+  border-color: #dc3545 !important;
+}
+
+.error {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #dc3545 !important;
+}
+
+.actionBTNLeft::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+  background-color: var(--black_70);
+  height: 50px;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.actionBTNLeft::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 50px;
+  width: 0;
+  border-radius: 4px;
+  background-color: var(--black);
+
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.actionBTNLeft:hover::before {
+  width: 120px;
+}
+
+.actionBTNRight::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+  background-color: var(--black);
+  height: 50px;
+  width: 0;
+  border-radius: 4px;
+
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.actionBTNRight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 50px;
+  width: 120px;
+  border-radius: 4px;
+  background-color: var(--black_70);
+}
+
+.actionBTNRight:hover::after {
+  width: 120px;
+}
+
+.bg {
+  background-color: var(--white);
+}

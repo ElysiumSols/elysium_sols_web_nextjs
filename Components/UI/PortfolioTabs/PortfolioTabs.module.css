@@ -1,0 +1,14 @@
+.active,
+.active:hover {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.tabsColor {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tabsColor:hover {
+  color: #fff;
+  cursor: pointer;
+}
