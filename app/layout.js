@@ -57,13 +57,12 @@ export default function RootLayout({ children }) {
       <head>
         <meta
           name="description"
-          content="Elysium Sols was founded in January 2019 with a mission to bring agility to small and large organizations using cutting-edge technology. Since its inception, the company has successfully helped numerous organizations, startups and enterprises alike to achieve their technology & business goals. The company has enabled startups to find successful exits and has helped enterprises be more agile and win new business."
+          content="Elysium Sols, established in January 2019, is a premier website development company specializing in infusing agility into businesses, both small-scale and large-scale, using state-of-the-art technology solutions. With a track record of empowering numerous startups and enterprise organizations, we pride ourselves on tailoring technology strategies that drive successful business outcomes. Our expertise has not only guided startups towards prosperous exits but has also equipped established enterprises with the agility to capture new market opportunities."
         />
         <meta
           name="description"
           content="Software house, Web Applications, Mobile Applications, Website Development"
         />
-        <meta name="ahrefs-site-verification" content="299a703583bfa795f9d36e8102a628e3fa83e430b7305ba5983d15f823d5e3ec" />
         <title>Elysium Sols</title>
       </head>
       <body className={prompt.className}>
