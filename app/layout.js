@@ -59,10 +59,20 @@ export default function RootLayout({ children }) {
           name="description"
           content="Established in 2019, Elysium Sols is a renowned software house excelling in website development, web applications, and mobile app creation. Serving startups and established businesses alike, we leverage cutting-edge technology to foster business growth. As leaders in digital solutions, we've steered startups to success and aided enterprises in expanding their online presence."
         />
-    
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XPW1M81K6S"
+        ></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XPW1M81K6S');  `}
+        </Script>
         <title>Elysium Sols | Web Applications | Mobile Applications</title>
       </head>
-      <body className={prompt.className}>
+      <body className={prompt.className} suppressHydrationWarning={true}>
         {siteloading && <LoadScreen />}
         {locpath === "/" ? (
           <NavBar navList={navItems} onContactPressed={contactButtonPressed} />
