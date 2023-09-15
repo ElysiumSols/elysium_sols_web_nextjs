@@ -136,3 +136,7 @@ button {
 .contact {
   font-size: 14px !important;
 }
+
+iframe {
+  min-height: 80vh;
+}
