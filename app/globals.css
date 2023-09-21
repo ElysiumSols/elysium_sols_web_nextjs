@@ -12,16 +12,12 @@
   --offWhite: #fcfcfc;
   --linearLight: #292929;
   --linearDark: #161616;
-  --linerGradient: linear-gradient(
-    108.46deg,
-    var(--linearLight) 0%,
-    var(--linearDark) 100%
-  );
-  --linerGradientInverse: linear-gradient(
-    108.46deg,
-    var(--linearDark) 0%,
-    var(--linearLight) 100%
-  );
+  --linerGradient: linear-gradient(108.46deg,
+      var(--linearLight) 0%,
+      var(--linearDark) 100%);
+  --linerGradientInverse: linear-gradient(108.46deg,
+      var(--linearDark) 0%,
+      var(--linearLight) 100%);
 }
 
 @layer base {
@@ -50,12 +46,15 @@ code {
 
 /* ============================================= Text Highlight Styling */
 ::selection {
-  background: #222; /* WebKit/Blink Browsers */
+  background: #222;
+  /* WebKit/Blink Browsers */
   color: #fefefe;
   border-radius: 10px;
 }
+
 ::-moz-selection {
-  background: #222; /* Gecko Browsers */
+  background: #222;
+  /* Gecko Browsers */
   color: #fefefe;
   border-radius: 5px;
 }
@@ -133,10 +132,11 @@ code {
 button {
   z-index: 1000 !important;
 }
+
 .contact {
   font-size: 14px !important;
 }
 
-#223421865801049 {
+.iframe-height iframe {
   min-height: 80vh;
 }
