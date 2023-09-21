@@ -60,7 +60,6 @@ export default function RootLayout({ children }) {
           content="Established in 2019, Elysium Sols is a renowned software house excelling in website development, web applications, and mobile app creation. Serving startups and established businesses alike, we leverage cutting-edge technology to foster business growth. As leaders in digital solutions, we've steered startups to success and aided enterprises in expanding their online presence."
         />
         <Script
-          async
           src="https://www.googletagmanager.com/gtag/js?id=G-XPW1M81K6S"
         ></Script>
         <Script id="google-analytics">
