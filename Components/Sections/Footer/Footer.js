@@ -173,20 +173,36 @@ const Footer = () => {
               Contact
             </h3>
             <div
-              className={`flex flex-col text-white md:mt-5 mt-2 md:text-base text-sm`}
+              className={`flex flex-col text-white md:mt-5 mt-2 md:text-base text-sm gap-4`}
             >
-              <div className={`flex flex-row`}>
-                <span className={``}>Address:</span>
-                <span className={`ml-3 font-light flex-1`}>
-                  Flat No. 2, 3rd Floor, Plaza 177, Phase 7 Bahria Town Springs
-                  North Commercial, Islamabad
-                </span>
+              <div>
+                <div className={`flex flex-row`}>
+                  <span className={``}>Head Office:</span>
+                  <span className={`ml-3 font-light flex-1`}>
+                    6321 7th Ave Brooklyn, NY 11220
+                  </span>
+                </div>
+                <div className={`mt-2 flex flex-row`}>
+                  <span className={``}>Contact:</span>
+                  <span className={`ml-4 font-light flex-1`}>
+                    <a href="tel:(929) 299-2450">(929) 299-2450</a>
+                  </span>
+                </div>
               </div>
-              <div className={`mt-2 flex flex-row`}>
-                <span className={``}>Contact:</span>
-                <span className={`ml-4 font-light flex-1`}>
-                  <a href="tel:+923360093061">+92-336-0093061</a>
-                </span>
+              <div>
+                <div className={`flex flex-row`}>
+                  <span className={``}>Office:</span>
+                  <span className={`ml-3 font-light flex-1`}>
+                    Flat No. 2, 3rd Floor, Plaza 177, Phase 7 Bahria Town Springs
+                    North Commercial, Islamabad
+                  </span>
+                </div>
+                <div className={`mt-2 flex flex-row`}>
+                  <span className={``}>Contact:</span>
+                  <span className={`ml-4 font-light flex-1`}>
+                    <a href="tel:+923360093061">+92-336-0093061</a>
+                  </span>
+                </div>
               </div>
               <div className={`mt-2 flex flex-row`}>
                 <span className={``}>Email:</span>
