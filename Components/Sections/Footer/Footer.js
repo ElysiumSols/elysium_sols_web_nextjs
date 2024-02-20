@@ -182,7 +182,7 @@ const Footer = () => {
                     6321 7th Ave Brooklyn, NY 11220
                   </span>
                 </div>
-                <div className={`mt-2 flex flex-row`}>
+                <div className={`mt-4 flex flex-row`}>
                   <span className={``}>Contact:</span>
                   <span className={`ml-4 font-light flex-1`}>
                     <a href="tel:(929) 299-2450">(929) 299-2450</a>
@@ -197,7 +197,7 @@ const Footer = () => {
                     North Commercial, Islamabad
                   </span>
                 </div>
-                <div className={`mt-2 flex flex-row`}>
+                <div className={`mt-4 flex flex-row`}>
                   <span className={``}>Contact:</span>
                   <span className={`ml-4 font-light flex-1`}>
                     <a href="tel:+923360093061">+92-336-0093061</a>
