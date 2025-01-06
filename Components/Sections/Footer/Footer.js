@@ -208,7 +208,7 @@ const Footer = () => {
                 <span className={``}>Email:</span>
                 <span className={`ml-9 font-light flex-1`}>
                   <a href="mailto:elysiumsols@gmail.com">
-                    elysiumsols@gmail.com
+                    info@elysiumsols.com
                   </a>
                 </span>
               </div>
