@@ -175,7 +175,7 @@ const Footer = () => {
             <div
               className={`flex flex-col text-white md:mt-5 mt-2 md:text-base text-sm gap-4`}
             >
-              <div>
+              {/* <div>
                 <div className={`flex flex-row`}>
                   <span className={``}>Head Office:</span>
                   <span className={`ml-3 font-light flex-1`}>
@@ -188,13 +188,13 @@ const Footer = () => {
                     <a href="tel:(929) 299-2450">(929) 299-2450</a>
                   </span>
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div className={`flex flex-row`}>
                   <span className={``}>Office:</span>
                   <span className={`ml-3 font-light flex-1`}>
-                    Flat No. 2, 3rd Floor, Plaza 177, Phase 7 Bahria Town Springs
-                    North Commercial, Islamabad
+                    Flat No. 2, 3rd Floor, Plaza 177, Phase 7 Bahria Town
+                    Springs North Commercial, Islamabad
                   </span>
                 </div>
                 <div className={`mt-4 flex flex-row`}>
