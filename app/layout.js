@@ -68,12 +68,12 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-XPW1M81K6S');  `}
         </Script>
         <title>Elysium Sols | Web Applications | Mobile Applications</title>
-        <script
+        <Script
           src="https://language-switcher-widget.lingrix.workers.dev/script.js"
           onload="Lingrix.init({
         apiKey: 'fb06b802-b570-4ba9-813b-1f7d74860569',
       });"
-        ></script>
+        ></Script>
       </head>
       <body className={prompt.className} suppressHydrationWarning={true}>
         {siteloading && <LoadScreen />}
