@@ -59,9 +59,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Established in 2019, Elysium Sols is a renowned software house excelling in website development, web applications, and mobile app creation. Serving startups and established businesses alike, we leverage cutting-edge technology to foster business growth. As leaders in digital solutions, we've steered startups to success and aided enterprises in expanding their online presence."
         />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XPW1M81K6S"
-        ></Script>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XPW1M81K6S"></Script>
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -70,6 +68,12 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-XPW1M81K6S');  `}
         </Script>
         <title>Elysium Sols | Web Applications | Mobile Applications</title>
+        <script
+          src="https://language-switcher-widget.lingrix.workers.dev/script.js"
+          onload="Lingrix.init({
+        apiKey: 'fb06b802-b570-4ba9-813b-1f7d74860569',
+      });"
+        ></script>
       </head>
       <body className={prompt.className} suppressHydrationWarning={true}>
         {siteloading && <LoadScreen />}
