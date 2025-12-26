@@ -69,10 +69,9 @@ export default function RootLayout({ children }) {
         </Script>
         <title>Elysium Sols | Web Applications | Mobile Applications</title>
         <Script
-          src="https://language-switcher-widget.lingrix.workers.dev/script.js"
-          onload="Lingrix.init({
-        apiKey: 'fb06b802-b570-4ba9-813b-1f7d74860569',
-      });"
+          src="https://cdn.lingrix.com/script.js"
+          defer
+          data-lingrix-id="1482a35d-f91c-4f3b-8920-8c67a2b29692"
         ></Script>
       </head>
       <body className={prompt.className} suppressHydrationWarning={true}>
